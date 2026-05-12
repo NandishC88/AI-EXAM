@@ -21,15 +21,15 @@ const mysql        = require('mysql2/promise');
 // ═══════════════════════════════════════════════════════
 //  MYSQL CONNECTION CONFIG — update these values
 // ═══════════════════════════════════════════════════════
-const DB_CONFIG = {
-  host: "mysql.railway.internal",
-  port: 3306,
-  user: "root",
-  password: "qKmWVTVDsdBeYeEFCPOshNskPotgXvTV",
-  database: "railway",
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0,
+const DB_CONFIG = { 
+  host: 'localhost', 
+  port: 3306, 
+  user: 'root', // your MySQL username 
+  password: 'MySql@8248892351', // your MySQL password 
+  database: 'proctorai_db', 
+  waitForConnections: true, 
+  connectionLimit: 10, 
+  queueLimit: 0, 
 };
 // ═══════════════════════════════════════════════════════
 //  APP SETUP
